@@ -1,0 +1,826 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&display=swap');
+ 
+*{
+    box-sizing: border-box;   
+    scroll-behavior: smooth;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/img1.jpg);
+    display: flex;
+}
+
+
+/*SIDEBAR*/
+
+
+.menu{
+    background-image: url(img/img2.png);
+    width: 405px;
+    height: 150vh;
+    padding: 10px;
+}
+
+.menu ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 340px;
+    margin-left: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #f16363;
+}
+
+.ico{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fa-instagram:hover{
+    color:#C13584 !important;
+}
+
+.fa-facebook:hover{
+    color:#4267B2 !important;
+}
+
+.fa-twitter:hover{
+    color:#1DA1F2 !important;
+}
+
+.fa-youtube:hover{
+    color:#FF0000 !important;
+}
+
+
+.label{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Architects Daughter', cursive;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+.input{
+   display: flex;
+   width: fit-content;
+   margin: 20px; 
+}
+
+input {
+    height: 50px;
+    border: 4px solid;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    border-left-style: none;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    background-color: #d9d981;
+    width: 140px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #3898ec;
+
+}
+
+input[type=email]{
+    border-radius: 10px 0px 0px 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+input[type=email]:hover{
+    border-color: #3898ec;
+
+}
+
+.logo{
+    width: 250px;
+    margin-left: 70px;
+}
+
+::placeholder { 
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px; 
+ }
+
+
+/*HOME*/
+
+
+.parafo p{
+    margin:  80px 70px;
+    font-size: 36px;
+    line-height: 30px; 
+    font-family: 'Architects Daughter', cursive;
+    color: #0c0c0b;
+    
+}
+
+.noticias{ 
+    margin: 100px;
+    margin-top: 80px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 55vw;
+    padding: 25px;
+    background-color: #c9c5b5;
+}
+
+.N1{
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 30px;   
+    padding: 10px;
+    background-color: #e4e4e1;
+}
+
+.N1 img{
+    width: 30%;
+    float: left;
+
+}
+
+.N1 h4:hover{
+    color: #f16363;
+    
+}
+
+.N1 h4{
+    position: relative;
+    left: 20px;
+ }
+
+.noticias h2{
+    font-size: 40px;
+    margin: 2px;
+} 
+
+
+.analisis{
+    margin: 100px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 55vw;
+    padding: 30px;
+    background-color: #c9c5b5;
+}
+
+.analis{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.A{
+    border: 4px solid;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.A img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.A img:hover{
+    width: 105%;
+    height: 105%;
+    filter: brightness(200%);
+ }
+
+.title{
+    font-size: 40px;
+    margin: 2px;
+} 
+
+
+/*JUEGOS: Lista*/
+
+
+.liMo{
+    display: flex;
+    justify-content:right;
+    position: relative;
+    right: 15px;
+}
+.lista{
+    margin: 2px;
+    padding: 5px;
+}
+.mosaic{
+    margin: 2px;
+    padding: 5px;
+}
+.fa-list{
+    margin-right: 2px;
+}
+.fa-th{
+    margin-right: 2px;
+}
+
+table{
+    width: 70vw;
+    margin:30px 10px;
+    
+    color: #0f0f0f;
+}
+
+td{
+    background: #c9c5b5;
+    border:1px solid #3a3a36;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-calendar{
+    color: orange;
+    margin-right: 10px;
+}
+.fa-calendar-week{
+    color: green;
+    margin-right: 10px;
+}
+.fa-gamepad{
+    color:#006B9C;
+    margin-right: 10px;
+}
+
+.fa-building{
+    margin-right: 10px;
+}
+.fa-tags{
+    color: red;
+    margin-right: 10px;
+}
+
+
+/*JUEGOS: Mosaico*/
+
+
+.menu1{
+    background-image: url(img/img2.png);
+    width: 405px;
+    height: 375vh;
+    padding: 10px;
+}
+
+.menu1 ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 340px;
+    margin-left: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+
+.JM{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 10px;
+    align-items: center;
+    gap: 5px;
+   
+}
+
+.JM div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);  
+    background: #f8f8f0;
+}
+.JM img{
+    border-radius: 10px;
+    
+}
+.Gtitulo{
+    font-size: 25px;
+    background-color: #f16363;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-top: 2px;
+}
+.Gstudio{
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 1px;
+    color: black;
+}
+.Gfecha{
+    margin-top: 1px;
+    font-size: 30px;
+    color: green;
+}
+#estimada {
+    color: orange;
+}
+
+
+/*GENEROS*/
+
+
+.menu2{
+    background-image: url(img/img2.png);
+    width: 405px;
+    height: 180vh;
+    padding: 10px;
+}
+.menu2 ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 340px;
+    margin-left: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+
+.parafo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 70vw;
+    height: 100px;
+    background: #c9c5b5;
+    margin: 18px 18px;
+}
+
+#icons{
+    font-size: 8em;
+    color: #3a3a36;
+}
+#icons:hover{
+    color: #f16363;
+    cursor: pointer;
+}
+.generos{
+    margin: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+.genero{
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+}
+
+.gener{
+    font-size: 25px;
+    margin: 1px 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+/*TIENDA*/
+
+
+.menu3{
+    background-image: url(img/img2.png);
+    width: 405px;
+    height: 304vh;
+    padding: 10px;
+}
+.menu3 ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 340px;
+    margin-left: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+
+.parafo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 70vw;
+    height: 100px;
+    background: #c9c5b5;
+    margin: 18px 18px;
+}
+.Cesta{
+    display: flex;
+    justify-content: end;
+}
+#Acceder{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+#Cesta{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.tienda{
+    margin: 20px;
+    width: 96%;
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #c9c5b5;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 20px;
+}
+.producto{
+    width: 25vw;
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: white;
+    text-align: center;
+}
+.producto img{
+    width: 20vw;
+    height: 40vh;
+}
+.producto h4{
+    font-size: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+.producto h4:hover{
+    background-color: #d9d981;
+    cursor: pointer;
+}
+.producto h4 i{
+    padding-right: 5px;
+}
+
+@media (max-width: 400px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url(img/img1.jpg);
+        display: block;
+        width: 108vw;
+    }
+    .menu{
+        width: 100%; 
+        background-image: url(img/img1.jpg);  
+    }
+    .menu ul{
+        border: 5px solid;
+        border-bottom: 10px solid;
+        border-radius: 20px;
+        list-style: none;
+        height: 240px;
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 50px;
+        padding: 15px;
+        font-size: 20px;
+        background-color: #c9c5b5;
+    }
+   
+.parafo p{
+    margin:  20px 10px;
+    font-size: 30px;
+    line-height: 30px; 
+    font-family: 'Architects Daughter', cursive;
+    color: #0c0c0b;
+}
+
+.noticias{ 
+   
+    margin-top: 0px;
+    margin-left: 15px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 100vw;
+    padding: 25px;
+    background-color: #c9c5b5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.N1{
+    border: solid 5px black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 20px;   
+    background-color: #e4e4e1;
+
+}
+
+.N1 img{
+    width: 30%;
+    
+    
+}
+
+.N1 h4:hover{
+    color: #f16363;
+    
+}
+
+.N1 h4{
+    position: relative;
+    left: 20px;
+ }
+
+.noticias h2{
+    font-size: 30px;
+    margin: 2px;
+} 
+    
+
+.analisis{
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 100vw;
+    padding: 30px;
+    background-color: #c9c5b5;
+    margin-top: 0px;
+    margin-left: 15px;
+}
+
+.analis{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.A{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    margin-left: 25px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.A img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.A img:hover{
+    width: 105%;
+    height: 105%;
+    filter: brightness(200%);
+ }
+ .title{
+    font-size: 30px;
+    margin: 2px;
+} 
+
+
+.parafo2{
+    font-size: 30px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    background: #c9c5b5;
+    width: 98%;
+    margin-left: 5px;
+  
+
+}
+.liMo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+table{
+    width: 70vw;
+    margin:25px 0px;
+    color: #0f0f0f;
+
+}
+
+
+
+
+
+
+.menu1{
+    background-image: url(img/img1.jpg);
+    width: 100%;
+    height: 135vh;
+   
+}
+.menu1 ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+.JM{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 10px;
+    align-items: center;
+    gap: 15px;
+    margin-left: 50px;
+   
+}
+.menu2{
+    background-image: url(img/img1.jpg);
+    width: 405px;
+    height: 135vh;
+    padding: 10px;
+}
+#icons{
+    font-size: 6em;
+    color: #3a3a36;
+}
+#icons:hover{
+    color: #f16363;
+    cursor: pointer;
+}
+.generos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-left: 0px;
+}
+.genero{
+    padding: 15px;
+    margin: 10px;
+    width:100px;
+    margin-left: 30px;
+}
+
+.gener{
+    font-size: 25px;
+    margin: 1px 10px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+
+
+
+
+.menu3{
+    background-image: url(img/img1.jpg);
+    width: 405px;
+    height: 135vh;
+    padding: 10px;
+}
+.parafo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 98%;
+    margin-left: 5px;
+    height: 100px;
+    background: #c9c5b5;
+}
+.Cesta{
+    display: flex;
+    justify-content: center;
+}
+#Acceder{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+#Cesta{
+    font-size: 20px;
+    margin-right: 40px;
+    text-align: center;
+}
+.tienda{
+    margin: 2px;
+    width: 99%;
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #c9c5b5;
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 20px;
+}
+.producto{
+    width: 80vw;
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: white;
+    text-align: center;
+}
+.producto img{
+    width: 50vw;
+    height: 40vh;
+}
+.producto h4{
+    font-size: 20px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+.producto h4:hover{
+    background-color: #d9d981;
+    cursor: pointer;
+}
+.producto h4 i{
+    padding-right: 5px;
+}
+
+
+
+
+}

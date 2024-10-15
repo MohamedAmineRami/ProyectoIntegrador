@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Architects+Daughter&display=swap');
+ 
+*{
+    box-sizing: border-box;   
+    scroll-behavior: smooth;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/img1.jpg);
+    display: flex;
+}
+
+
+/*SIDEBAR*/
+
+
+.menu{
+    background-image: url(img/img2.png);
+    width: 405px;
+    height: 145vh;
+    padding: 10px;
+}
+
+.menu ul{
+    border: 5px solid;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    list-style: none;
+    height: 240px;
+    width: 340px;
+    margin-left: 17px;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #c9c5b5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #f16363;
+}
+
+.ico{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.fa-instagram:hover{
+    color:#C13584 !important;
+}
+
+.fa-facebook:hover{
+    color:#4267B2 !important;
+}
+
+.fa-twitter:hover{
+    color:#1DA1F2 !important;
+}
+
+.fa-youtube:hover{
+    color:#FF0000 !important;
+}
+
+
+.label{
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Architects Daughter', cursive;
+    line-height: 30px;
+    margin-left: 100px;
+}
+
+.input{
+   display: flex;
+   width: fit-content;
+   margin: 20px; 
+}
+
+input {
+    height: 50px;
+    border: 4px solid;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    border-left-style: none;
+    border-radius: 0px 10px 10px 0px;
+    text-transform: uppercase;
+    background-color: #d9d981;
+    width: 140px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #3898ec;
+
+}
+
+input[type=email]{
+    border-radius: 10px 0px 0px 10px;
+    width: 200px;
+    padding: 10px;
+}
+
+input[type=email]:hover{
+    border-color: #3898ec;
+
+}
+
+.logo{
+    width: 250px;
+    margin-left: 70px;
+}
+
+::placeholder { 
+    font-family: 'Architects Daughter', cursive;
+    font-size: 25px; 
+    color: black;
+}
+
+
+
+/*CONTACTO*/
+
+
+.parafo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    width: 70vw;
+    height: 100px;
+    background: #c9c5b5;
+    margin: 18px 18px;
+}
+
+.contacto{
+    margin: 50px;
+    width: 90%;
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px;
+    padding: 10px;
+    background: #c9c5b5;
+}
+.contacto h2{
+    font-size: 38px;
+    line-height: 44px;
+    margin-left: 30px;
+}
+
+.C1{
+    border: solid 5px black;
+    border-bottom: 10px solid;
+    border-radius: 20px; 
+    padding: 15px;
+    margin: 30px;
+    background: white;
+    width: 95%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+#nombre{
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px; 
+    margin: 5px;
+    width: 95%;
+    background: #c9c5b5;
+}
+#mail{
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px; 
+    margin: 5px;
+    width: 95%;
+    background: #c9c5b5;
+}
+.area{
+    height: 120px;
+}
+#submit{
+    border: solid 2px black;
+    border-radius: 20px; 
+    margin: 5px;
+    width: 95%;
+}
+
+@media (max-width: 400px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+        background-image: url(img/img1.jpg);
+        display: block;
+        width: 108vw;
+    }
+    .menu{
+        width: 100%;
+        height: 135vh;
+        background-image: url(img/img1.jpg);  
+    }
+    .parafo2{
+        font-size: 30px;
+        border: solid 5px black;
+        border-bottom: 10px solid;
+        border-radius: 20px;
+        background: #c9c5b5;
+        width: 98%;
+        margin-left: 5px;
+    }
+    .contacto{
+        margin: 10px;
+        width: 95%;
+        border: solid 5px black;
+        border-bottom: 10px solid;
+        border-radius: 20px;
+        padding: 10px;
+        background: #c9c5b5;
+    }
+    .C1{
+        border: solid 5px black;
+        border-bottom: 10px solid;
+        border-radius: 20px; 
+        margin: 20px;
+        padding: 15px;
+        background: white;
+        width: 90%;
+    }
+}
